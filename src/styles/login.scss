@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+  
+    position: relative;
+  }
+#backg { 
+  height: 100vh;
+  
+  background-image: url("../data/background-3d-4k_085529380.jpg");
+}
+  #login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  input::placeholder{
+    opacity: 0.2;
+  }
+  #login .container #login-row #login-column #login-box {
+    margin-top:0px;
+    border-radius: 10px;
+    width:calc(100vh/2);
+    height: calc(100vh/1.5);
+    border: 3px solid #65bcdf;
+    background-color: #c4e8fd;
+    display: flex;
+    justify-content: center;
+    
+   
+  }
+  #login .container #login-row #login-column #login-box #login-form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+     margin-top: 10px;
+     a{
+      color: #000000 !important;
+      text-decoration: underline;
+      }
+  }
+  .form-control{
+    font-size: unset;
+    border-radius: 5px;
+    border:1px solid #abadad;
+    outline: none;
+  }
+  .form-control:focus{
+    border:1px solid #05ffb4;
+  }
+  .text-info{
+    font-size: 16px;
+  }
+
+  .btn-submit{
+    margin-top: 10px;
+    font-size: 28px;
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    background: rgb(0,36,33);
+    background: linear-gradient(90deg, rgba(0,36,33,1) 0%, rgba(24,171,147,0.9976365546218487) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+  }
+  .btn-submit:hover{
+    cursor: pointer;
+  }
+#login-form {
+  padding: 10px;
+  
+  h3{
+    margin: 0px;
+    text-align: center;
+    font-size: 35px;
+    background: linear-gradient(to right, #30CFD0 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+}
+
+.form-group{
+  font-size: 28px;
+  margin-top: 10px;
+}
