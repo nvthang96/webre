@@ -1,13 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    
-  
     position: relative;
   }
 #backg { 
   height: 100vh;
-  
   background-image: url("../data/background-3d-4k_085529380.jpg");
 }
   #login {
@@ -20,26 +17,22 @@ body {
   input::placeholder{
     opacity: 0.2;
   }
-  #login .container #login-row #login-column #login-box {
+  #login #login-box {
     margin-top:0px;
     border-radius: 10px;
-    width:calc(100vh/2);
-    height: calc(100vh/1.5);
     border: 3px solid #65bcdf;
     background-color: #c4e8fd;
-    display: flex;
-    justify-content: center;
     
    
   }
-  #login .container #login-row #login-column #login-box #login-form {
+  #login #login-box #login-form {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 10px;
   }
-  #login .container #login-row #login-column #login-box #login-form #register-link {
-     margin-top: 10px;
+  #login #login-box #login-form #register-link {
+     margin: 10px 0px;
      a{
       color: #000000 !important;
       text-decoration: underline;
@@ -80,6 +73,7 @@ body {
     font-size: 35px;
     background: linear-gradient(to right, #30CFD0 0%, #000000 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   
@@ -88,4 +82,5 @@ body {
 .form-group{
   font-size: 28px;
   margin-top: 10px;
+
 }
